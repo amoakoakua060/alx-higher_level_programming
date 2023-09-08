@@ -84,7 +84,7 @@ def _recursive(board, row, queens, sols):
             tmp_board[row][c] = "Q"
             x_out(tmp_board, row, c)
             sols = _recursive(tmp_board, row + 1,
-                                        queens + 1, sols)
+                              queens + 1, sols)
 
     return (sols)
 
