@@ -7,7 +7,8 @@ module containing append_write function
 
 def append_write(filename="", text=""):
     """
-    writes a string to end of a text file (UTF8) and returns the number of characters
+    writes a string to end of a text file (UTF8) and returns the number
+    of characters
     """
     if not isinstance(text, str):
         return 0
