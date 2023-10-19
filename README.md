@@ -2,4 +2,4 @@
 
 ## Python Hello World
 
-This has to do with everything Pytho, from introduction to building first project
+This has to do with everything Python, from introduction to building first project
